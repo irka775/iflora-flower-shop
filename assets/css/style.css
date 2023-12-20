@@ -20,6 +20,10 @@
     scroll-padding-top: 6rem;
     overflow-x:hidden;
  }
+ /*creating style for home section*/
+ section {
+    padding: 5rem 9%;
+ }
 
  /*style for header section*/
  header {
@@ -74,7 +78,28 @@
     cursor: pointer;
     display:none;
  }
-
+   
+ .home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../images/img7.jpg) no-repeat center;
+    background-size: cover;
+    
+ }
+ .home .content {
+    max-width: 50rem;
+ }
+  .home .content h1 {
+    font-size: 12rem;
+    color:#661;
+  }
+   .home .content h2 {
+    font-size: 4rem;
+    color:lightcoral;
+    padding:1rem 0;
+    line-height: 1.5;
+   }
 
 
  
