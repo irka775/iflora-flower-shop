@@ -36,3 +36,28 @@
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 
  }
+ /*style for logo*/
+ header .logo {
+   font-size: 3.2rem;
+   color:green;
+   font-weight: bolder;
+ }
+ i {
+    color:red;
+ }
+
+ header .icon {
+    color:red;
+    font-size:large;
+ }
+
+ /*style for navigation bar*/
+ header .navbar a {
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color:#666;
+ }
+
+ header .navbar a:hover {
+    color:red;
+ }
