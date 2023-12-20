@@ -25,6 +25,15 @@
     padding: 5rem 9%;
  }
 
+ .heading {
+    text-align: center;
+    font-size: 4rem;
+    color: #661;
+    padding: 2rem;
+    margin: 2rem 0;
+    background: rgba(0,0,0,.1);
+ }
+
  .btn {
     display:inline-block;
     margin-top: 2rem;
@@ -115,7 +124,45 @@
     padding:0.3rem 0;
     line-height: 1.5;
    }
+
+   .about .row {
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    flex-wrap:wrap;
+    padding: 2rem 0;
+    padding-bottom: 2.5rem;
+   }
     
+         .about .row  .video-content{
+            flex:1 1 40rem;
+            position:relative;
+         }
+
+         .about .row .video-content video {
+            width: 100%;
+            border:2rem solid #661;
+            border-radius: .6rem;
+            box-shadow: 0 .6rem 1 rem  rgba(0,0,0,.1);
+            height:100%;
+            object-fit: cover;
+         }
+
+.about .row .video-content h3 {
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+   
+    background:#fff;
+    width:100%;
+    padding: 1rem 2rem;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+         .about .row .content {
+            flex:1 1 40rem;
+         }
 
 
 
@@ -203,6 +250,10 @@ header .fa-bars {
 
       html {
           font-size: 50%;
+      }
+
+      .heading {
+        font-size: 3rem;
       }
 
      
