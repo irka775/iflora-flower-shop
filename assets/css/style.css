@@ -105,3 +105,30 @@ header .fa-bars {
     cursor: pointer;
     display: none;
 }
+/*Creating style for main page */
+
+.home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../images/main-foto.jpg) no-repeat center;
+    background-size: cover;
+
+}
+
+.home .content {
+    max-width: 50rem;
+}
+
+/*Creating style for cover text*/
+.home .home-content h1 {
+    font-size: 6.5rem;
+    color: #661;
+}
+
+.home .home-content h2 {
+    font-size: 3rem;
+    color: #663;
+    padding: 0.3rem 0;
+    line-height: 1.5;
+}
