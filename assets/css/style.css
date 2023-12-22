@@ -289,3 +289,35 @@ header .fa-bars {
     border: 0.5rem solid rgba(0, 0, 0, .1);
 }
 
+/*Creating style for customers review box*/
+
+.review .box-container .box .stars i {
+    font-size: 2rem;
+}
+
+.review .box-container .box p {
+    color: #661;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-top: 2rem;
+}
+
+
+.review .box-container .box .customer {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.review .box-container .box .customer img {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.review .box-container .box .customer h3 {
+    font-size: 2rem;
+    color: lightcoral;
+}
