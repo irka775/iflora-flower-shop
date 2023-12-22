@@ -1,0 +1,37 @@
+/*import of Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+
+/*Asterisk selector for default styles added by the browser*/
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Merienda One", "Brush Script MT", "Cursive";
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+/* creating style for html page*/
+html {
+    font-size: 65%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+/*creating style for home section*/
+section {
+    padding: 5rem 9%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #661;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    background: rgba(255, 51, 156, .05);
+}
