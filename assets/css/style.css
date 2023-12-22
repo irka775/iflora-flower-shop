@@ -135,6 +135,7 @@ header .fa-bars {
     padding: 0.3rem 0;
     line-height: 1.5;
 }
+
 /*Creating style for about us page*/
 .about .row {
     display: flex;
@@ -190,6 +191,7 @@ header .fa-bars {
     font-size: 1.5rem;
     color: #663;
 }
+
 /*Adding style for icons container*/
 
 .icons-container {
@@ -406,4 +408,90 @@ header .fa-bars {
 .footer .box a:hover {
     color: #663;
     text-decoration: underline;
+}
+
+
+
+/*Media queries for large devices like laptops and descktops(max-width:991px and up)*/
+@media (max-width:991px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    header {
+        padding: 2.5rem;
+    }
+
+    section {
+        padding: 2.5rem;
+    }
+
+    .home {
+        background-position: left;
+    }
+}
+
+/*Media queries for tablets with a screen max-width:768px*/
+@media (max-width:768px) {
+
+    header .fa-bars {
+        display: block;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        background: #eee;
+        border-top: .1rem solid rgba(0, 0, 0, .1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+    }
+
+    header .navbar a {
+        margin: 1.5rem;
+        padding: 2rem;
+        background: #fff;
+        border: .1rem solid #661;
+        display: block;
+    }
+
+    header #toggle:checked~.navbar {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .home .home-content h1 {
+        font-size: 5rem;
+    }
+
+    .home .home-content h2 {
+        font-size: 2.5rem;
+    }
+}
+
+.icons-container .icons h3 {
+
+    font-size: 1.8rem;
+}
+
+.icons-container .icons span {
+
+    font-size: 1.5rem;
+}
+
+
+/*Media queries for phones*/
+@media (max-width:450px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+
+
 }
