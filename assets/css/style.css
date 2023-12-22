@@ -381,3 +381,29 @@ header .fa-bars {
     resize: none;
 }
 
+/*Creatin style for footer section*/
+
+.footer .box {
+
+    text-align: center;
+    background-color: #eee;
+
+}
+
+.footer .box h3 {
+    font-size: 2.5rem;
+    color: #661;
+    padding: 1rem 0;
+}
+
+.footer .box a {
+    display: block;
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: #663;
+}
+
+.footer .box a:hover {
+    color: #663;
+    text-decoration: underline;
+}
