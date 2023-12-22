@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,87 +11,94 @@
     <meta name="description" content="iFlora flower shop. Flower shop in Dublin, Ireland.">
     <meta name="keywords" content="iFlora, flower shop,Ireland, Dublin,flowers,bouquet,love flowers">
     <!--Font awesome link-->
-    <script src="https://kit.fontawesome.com/c47ec1de58.js" crossorigin="anonymous"></script>       
+    <script src="https://kit.fontawesome.com/c47ec1de58.js" crossorigin="anonymous"></script>
     <!--Stylesheet, css style link-->
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
-    
     <!--Creating Header section-->
     <header>
 
-       <input type="checkbox" name="" id="toggle">
-       <label for="toggle" class="fa-solid fa-bars" ></label>
+        <input type="checkbox" name="toggle" id="toggle">
+        <label for="toggle" class="fa-solid fa-bars"></label>
         <div class="icon">
-        <!--creating logo, name for website-->
-        <a href="#" class="logo"><i>i</i>Flora</a>
-        <!--creating icon for logo-->
-        <i class="fa-solid fa-leaf"></i>
+            <!--creating logo, name for website-->
+            <a href="#" class="logo"><i>i</i>Flora</a>
+            <!--creating icon for logo-->
+            <i class="fa-solid fa-leaf"></i>
         </div>
 
         <!--creating navigation bar,pages for website-->
         <nav class="navbar">
-            <a href="home">home</a>
-            <a href="about">about us</a>
-            <a href="flower-catalog">flower catalog</a>
-            <a href="review">review</a>
-            <a href="contact">contact</a>
+            <a href="#home">home</a>
+            <a href="#about">about us</a>
+            <a href="#flower-catalog">flower catalog</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
 
         </nav>
     </header>
-    <!--End of header section-->
+
 
     <!--Creating Home(main) section-->
     <section class="home" id="home">
-      
+
         <div class="home-content">
-           <h1>Give <i>love</i> through <i>flowers!</i></h1>
-           <h2>Flowers will say everyting for you!!!</h2>
-           <a href="#" class="btn">Shop now</a>
+            <h1>Give <i>love</i> through <i>flowers!</i></h1>
+            <h2>Flowers will say everyting for you!!!</h2>
+
         </div>
 
     </section>
-    <!--End of home section-->
+
     <!--Creating About Us section -->
 
-    <section class="about" id="about"></section>
-     <h1 class="heading"><i>about</i> us</h1>
-     <div class="row">
-        <div class="video-content">
-            <video src="images/video.mp4" loop autoplay muted></video>
-            <h3>fantastick flowers shop</h3>
+    <section class="about" id="about">
+        <h1 class="heading"><i>about</i> us</h1>
+        <div class="row">
+            <!--Adding video content-->
+            <div class="video-container">
+                <video
+                    src="https://media.istockphoto.com/id/897397074/video/girl-florist-cuts-off-flower-stems-bouquet-close-up-4k.mp4?s=mp4-640x640-is&k=20&c=OLKw60XaFXMbeIl8xp52qg3Pavli5KG899m1VdC2vJA="
+                    loop autoplay muted></video>
+                <h3>fantastick flower shop</h3>
+            </div>
+            <!--Creating content information-->
+            <div class="content">
+                <h3>Who are we ?</h3>
+                <ul>
+                    <li>Welcome to our website! Here you can find a wide range of flowers,bouquets and floral
+                        arangements that
+                        will satisfy every taste and suit any occasion.</li>
+
+                    <li>
+                        We are working on creating exclusive bouquets and arragements of fresh flowers.Bridal bouquet
+                        and floral
+                        interior design , composition for the birth of a child and decoration of the wedding procession
+                        ,as well
+                        as
+                        much more- you will find all this in our shop.
+                    </li>
+                    <li>Moreover,you yourself can take part in creating a bouquet expressing all your
+                        wishes,and we will make all your floral fantasies come true with the help of our capabilities
+                    </li>
+                    <li>We can also offer you a service such as express delivery-we guarantee that the bouquet
+                        will be delivered to the recipient on time.</li>
+                    <li>The main thing for us is craftsmanship,style and of course your good mood! </li>
+                </ul>
+                <h3>Why us ?</h3>
+                <ol>
+                    <li>Creativity (Following the latest trends in modern floristry.)</li>
+                    <li>Prices and discounts. (Reasonable prices and a system of cumulative discounts.) </li>
+
+                    <li>Efficiency (You can be sure that the flowers will be delivered as quickly as possible.) </li>
+                </ol>
+            </div>
         </div>
-        <div class="content"></div>
-        <h3>Who are we ?</h3>
-        <ul>
-            <li>Welcome to our website! Here you can find a wide range of flowers,bouquets and floral
-                arangements that
-                will satisfy every taste and suit any occasion.</li>
-        
-            <li>
-                We are working on creating exclusive bouquets and arragements of fresh flowers.Bridal bouquet and floral
-                interior design , composition for the birth of a child and decoration of the wedding procession ,as well as
-                much more- you will find all this in our shop.
-            </li>
-            <li>Moreover,you yourself can take part in creating a bouquet expressing all your
-                wishes,and we will make all your floral fantasies come true with the help of our capabilities</li>
-            <li>We can also offer you a service such as express delivery-we guarantee that the bouquet
-                will be delivered to the recipient on time.</li>
-            <li>The main thing for us is craftsmanship,style and of course your good mood! </li>
-        </ul>
-        <h3>Why us ?</h3>
-        <ol>
-            <li>Creativity (Following the latest trends in modern floristry.)</li>
-            <li>Prices and discounts. (Reasonable prices and a system of cumulative discounts.)
-                
-            </li>
-        
-            <li>Efficiency (You can be sure that the flowers will be delivered as quickly as possible.) </li>
-        </ol>
-     </div>
-    <!--End of About Us section -->
+    </section>
+
     <!--Creating icons section-->
     <section class="icons-container">
         <div class="icons">
@@ -116,6 +124,196 @@
         </div>
     </section>
 
-    
+    <!--Creating Flower Catalog section-->
+    <section class="flower-catalog" id="flower-catalog">
+        <h1 class="heading"><i>Flower</i> catalog</h1>
+        <div class="container-box">
+            <!--Creating box with content about the flower catalog-->
+            <div class="box">
+
+                <div class="image">
+                    <img src="assets/images/bd-bouquet1.jpg" alt="birthday bouquet">
+
+                </div>
+                <div class="content">
+                    <h3>Whole heart</h3>
+                    <div class="price">€15.99</div>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="assets/images/bd-bouquet2.jpg" alt=" bouquet of flowers">
+                </div>
+                <div class="content">
+                    <h3>Passion</h3>
+                    <div class="price">€12.99</div>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="assets/images/bouquet3.jpg" alt=" bouquet">
+
+                </div>
+                <div class="content">
+                    <h3>Amazing</h3>
+                    <div class="price">€10.99</div>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="assets/images/bd-bouquet4.jpg" alt=" bouquet of flowers in red box">
+
+
+                </div>
+                <div class="content">
+                    <h3>I love you</h3>
+                    <div class="price">€13.99</div>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="assets/images/bouquet5.jpg" alt=" bouquet of flowers">
+
+
+                </div>
+                <div class="content">
+                    <h3>Big gift</h3>
+                    <div class="price">€15.99</div>
+                </div>
+            </div>
+
+
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="assets/images/bouquet6.jpg" alt=" bouquet of light pink roses">
+
+                </div>
+                <div class="content">
+                    <h3>You're beautiful!</h3>
+                    <div class="price">€17.99</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Creating review section -->
+    <section class="review" id="review">
+        <h1 class="heading">Customers <i>review</i></h1>
+        <!--Creating box container with content about customers and they review-->
+        <div class="box-container">
+            <!--first customer-->
+            <div class="box">
+                <div class="star-icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                </div>
+                <p>Beautiful flowers that arrived at 11am even though
+                    they were ordered only 2 hours earlier. How's that for being prompt.
+                    I was informed by email at each step and the presentation of the flowers
+                    was fantastic. My Mum loved them</p>
+                <div class="customer">
+                    <img src="assets/images/woman1.jpg" alt="foto with face of young smiling women">
+                    <div class="info-customer">
+                        <h3>Johanna O'Connel</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Second customer-->
+        <div class="box-container">
+            <div class="box">
+                <div class="star-icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                </div>
+                <p>The website made it super easy to find a great
+                    arrangement of beautiful flowers that were reasonably priced.
+                    The person receiving the flowers LOVED THEM!</p>
+                <div class="customer">
+                    <img src="assets/images/woman2.jpg" alt="foto with face of young women">
+                    <div class="info-customer">
+                        <h3>Peggy Caroll</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Third customer-->
+
+        <div class="box-container">
+            <div class="box">
+                <div class="star-icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                </div>
+                <p>iFlora never disappoint. As an ex pat,
+                    I have been using this company for years and will continue to do so.</p>
+                <div class="customer">
+                    <img src="assets/images/man.jpg" alt="foto with face of young smiling men">
+                    <div class="info-customer">
+                        <h3>John Toner</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Creating contact section-->
+    <section class="contact" id="contact">
+        <h1 class="heading"><i>Contact</i> us</h1>
+        <div class="content">
+            <h2 class="heading">Please your loved ones!</h2>
+            <h3 class="heading"><i>Order a bouquet NOW!</i></h3>
+        </div>
+        <div class="row">
+            <form action="https://formdump.codeinstitute.net" method="POST">
+                <input type="text" placeholder="name" class="box" required>
+                <input type="number" placeholder="phone number" class="box" required>
+                <input type="email" placeholder="email" class="box" required>
+                <textarea name="textar" class="box" placeholder="message" id="textar" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+
+            </form>
+            <!--Adding some image-->
+            <div class="image">
+                <img src="assets/images/violet-flower.jpg" alt="violet wild flower">
+            </div>
+        </div>
+    </section>
+
+    <!--Creating footer section-->
+
+    <section class="footer">
+        <div class="box">
+            <h3> <i>Contact</i> information</h3>
+            <a href="#">+353 456789</a>
+            <a href="#">iFlora@gmail.com</a>
+            <a href="#">Dublin, Ireland Y00A00</a>
+
+        </div>
+    </section>
+
 </body>
+
 </html>
