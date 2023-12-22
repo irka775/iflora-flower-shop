@@ -102,7 +102,7 @@ The iFlora flower shop website has been testing for:
 
 ## Deployment
 
-To deploy the Smart Home project, follow these steps:
+To deploy the  project, follow these steps:
 
 1. Clone the repository to your local machine using the following command:
 
