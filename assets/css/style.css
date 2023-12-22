@@ -226,3 +226,66 @@ header .fa-bars {
     color: #661;
     font-size: 1.25rem;
 }
+
+/*Creating style for flower catalog page*/
+
+.flower-catalog .container-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.flower-catalog .container-box .box {
+    flex: 1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border-radius: .7rem;
+    position: relative;
+}
+
+.flower-catalog .container-box .box .image {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.flower-catalog .container-box .box .image img {
+    height: 25rem;
+}
+
+.flower-catalog .container-box .box:hover .image img {
+    transform: scale(1.1)
+}
+
+.flower-catalog .container-box .box .content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.flower-catalog .container-box .box .content h3 {
+    font-size: 2rem;
+    color: red;
+}
+
+.flower-catalog .container-box .box .content .price {
+    font-size: 1.5rem;
+    color: #661;
+    font-weight: bolder;
+    padding-top: 0.3rem;
+}
+
+/*creating style for review section*/
+.review .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.review .box-container .box {
+    flex: 1 1 30rem;
+    box-shadow: 0 .3rem 0.5rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    padding: 3rem 2.5rem;
+    position: relative;
+    border: 0.5rem solid rgba(0, 0, 0, .1);
+}
+
