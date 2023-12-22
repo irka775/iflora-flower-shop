@@ -35,3 +35,73 @@ section {
     margin: 2rem 0;
     background: rgba(255, 51, 156, .05);
 }
+.btn {
+    display: inline-block;
+    margin-top: 2rem;
+    border-radius: 20rem;
+    background: #333;
+    color: #eee;
+    padding: .9rem 3.7rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+}
+
+.btn:hover {
+    background: red;
+}
+
+/*style for header section*/
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+
+}
+
+/*style for logo*/
+header .logo {
+    font-size: 3.2rem;
+    color: green;
+    font-weight: bolder;
+}
+
+i {
+    color: red;
+}
+
+header .icon {
+    color: red;
+    font-size: large;
+}
+
+/*style for navigation bar*/
+header .navbar a {
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #661;
+}
+header .navbar a:hover {
+    color: red;
+}
+
+/*creating style for navigation bar using dropdown toggle*/
+
+header #toggle {
+    display: none;
+}
+
+header .fa-bars {
+    font-size: 2.3rem;
+    color: #661;
+    padding: .6rem 2rem;
+    cursor: pointer;
+    display: none;
+}
