@@ -35,6 +35,7 @@ section {
     margin: 2rem 0;
     background: rgba(255, 51, 156, .05);
 }
+
 .btn {
     display: inline-block;
     margin-top: 2rem;
@@ -88,6 +89,7 @@ header .navbar a {
     padding: 0 1.5rem;
     color: #661;
 }
+
 header .navbar a:hover {
     color: red;
 }
@@ -105,6 +107,7 @@ header .fa-bars {
     cursor: pointer;
     display: none;
 }
+
 /*Creating style for main page */
 
 .home {
@@ -131,4 +134,59 @@ header .fa-bars {
     color: #663;
     padding: 0.3rem 0;
     line-height: 1.5;
+}
+/*Creating style for about us page*/
+.about .row {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 2.5rem;
+}
+
+.about .row .video-container {
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+}
+
+.about .row .video-container video {
+    width: 100%;
+    border: 0.5rem solid black;
+    border-radius: .5rem;
+    box-shadow: 0 .6rem 1rem rgba(0, 0, 0, .1);
+    height: 100%;
+    object-fit: cover;
+}
+
+.about .row .video-container h3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+
+    background: #fff;
+    width: 100%;
+    padding: 1rem 2rem;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+
+/*Creating style for conteiner text in about us page*/
+.about .row .content h3 {
+    font-size: 3rem;
+    color: lightcoral;
+}
+
+.about .row .content ul {
+    font-size: 1.5rem;
+    color: #661;
+    padding: 5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+
+.about .row .content ol {
+    font-size: 1.5rem;
+    color: #663;
 }
