@@ -321,3 +321,63 @@ header .fa-bars {
     font-size: 2rem;
     color: lightcoral;
 }
+
+/*Creating style for contact section*/
+
+.contact .row {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.contact .content h2 {
+    font-size: 1.5rem;
+    color: #661;
+}
+
+.contact .content h3 {
+    font-size: 1.4rem;
+
+}
+
+.contact .row form {
+    flex: 1 1 40rem;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 .3rem 0.5rem rgba(0, 0, 0, .1);
+    border: 0.3rem solid rgba(0, 0, 0, .1);
+    background: #eee;
+    border-radius: .8rem;
+
+}
+
+.contact .row .image {
+    flex: 1 1 40rem;
+}
+
+.contact .row .image img {
+    width: 100%;
+
+
+}
+
+.contact .row form .box {
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #661;
+    text-transform: none;
+    border: 0.3rem solid rgba(0, 0, 0, .1);
+    border-radius: .8rem;
+    margin: 0 0;
+    width: 100%;
+}
+
+.contact .row form .box:focus {
+    border-color: pink;
+}
+
+.contact .row form textarea {
+    height: 15rem;
+    resize: none;
+}
+
