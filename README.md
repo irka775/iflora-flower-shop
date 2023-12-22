@@ -106,7 +106,7 @@ To deploy the Smart Home project, follow these steps:
 
 1. Clone the repository to your local machine using the following command:
 
-git clone <https://github.com/user/smart-home.git>
+git clone <https://github.com/irka775/iflora-flower-shop.git>
 
 ### Media
 
